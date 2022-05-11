@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();//o prompt precisa dessa linha de códig
 
 let nome = prompt("Digite Renato! ").toUpperCase();//Osuário vai digitar
 
-  let newNome = nome.replace("RENATO","Luke Shywalker")
+  let newNome = nome.replace("RENATO","Luke Skywalker")
 
 console.log(` O nome do nosso guerreiro é ${newNome} `)
 
